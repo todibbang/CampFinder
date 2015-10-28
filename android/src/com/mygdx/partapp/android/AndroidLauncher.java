@@ -18,9 +18,11 @@ public class AndroidLauncher extends AndroidApplication implements
 		GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
 		LocationListener
 {
+	private int numse = 8;
 
 	private GoogleApiClient mGoogleApiClient;
 	private LocationRequest mLocationRequest;
+
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) 
